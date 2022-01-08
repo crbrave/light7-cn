@@ -22,7 +22,8 @@
 
 
 你可以直接在nginx之类的服务器中打开 `_site` 目录。
-安装ruby链接 https://rubyinstaller.org/downloads/ 版本需要是3.0之前 如2.7  需要带 WITH DEVKIT
+(说明:安装ruby链接 https://rubyinstaller.org/downloads/ 版本需要是3.0之前 如2.7  需要带 WITH DEVKIT)
+
 或者执行 `jekyll serve` 打开本地服务器. 如果你的系统中没有ruby，请先[安装ruby](https://www.ruby-lang.org/en/documentation/installation/)。然后再安装 `jekyll` 和 `rouge` （执行 `gem install jekyll` 和 `gem install rouge`）。
 如果发现 `gem install` 失败，可能是因为 gem 服务器被和谐，参考[淘宝gem镜像](https://ruby.taobao.org/)
 
